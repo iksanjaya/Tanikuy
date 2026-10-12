@@ -297,7 +297,6 @@
                         <a href="{{ route('users.index') }}" class="sidebar-menu-link {{ request()->routeIs('users.*') ? 'active' : '' }}">
                             <i class="bi bi-people-fill"></i>
                             <span>Kelola Pengguna</span>
-                            <span class="sidebar-menu-badge bg-primary text-white">Role</span>
                         </a>
                     </li>
                 </ul>
